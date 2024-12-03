@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - openjdk11
+script:
+  - mvn clean install
+notifications:
+  email:
+    recipients:
+      - your-email@example.com
+    on_success: always
+    on_failure: always
