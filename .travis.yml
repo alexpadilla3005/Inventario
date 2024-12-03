@@ -9,3 +9,7 @@ notifications:
       alexpadilla3005@outlook.com
     on_success: always
     on_failure: always
+
+    git add .travis.yml
+git commit -m "Set up Travis CI"
+git push origin develop
